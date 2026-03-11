@@ -8,6 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute'
 import Dashboard from './pages/admin/Dashboard'
 import AddApplication from './pages/admin/AddApplication'
 import JobApplicatonsList from './pages/admin/JobApplicatonsList'
+import Calendar from './pages/admin/Calendar'
 
 const App = () => {
   return (
@@ -50,6 +51,14 @@ const App = () => {
           element={
             <ProtectedRoute>
               <JobApplicatonsList />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path='/calendar'
+          element={
+            <ProtectedRoute>
+              <Calendar />
             </ProtectedRoute>
           }
         />

@@ -11,6 +11,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         { name: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/dashboard' },
         { name: 'Add New Application', icon: <LayoutDashboard size={20} />, path: '/add-application' },
         { name: 'Job Applications', icon: <Briefcase size={20} />, path: '/job-applications' },
+        { name: 'Calendar', icon: <Bell size={20} />, path: '/calendar' },
     ];
 
     const handleLogout = () => {
