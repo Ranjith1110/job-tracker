@@ -46,7 +46,7 @@ const Hero = () => {
                     <h1 className="text-4xl sm:text-6xl md:text-8xl font-black text-slate-900 leading-[1.1] md:leading-[0.95] mb-6 md:mb-8 tracking-tighter">
                         Organize your <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#0d5f53] to-[#0d5f53]/70 italic font-medium pr-1">
-                            future.
+                            future...
                         </span>
                     </h1>
 
